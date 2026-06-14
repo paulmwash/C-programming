@@ -8,6 +8,7 @@ if (p == NULL){
   return;
 }
  *p=5;
+  printf("Value of p %d",*p);
   free(p);
   p=NULL;
 }
