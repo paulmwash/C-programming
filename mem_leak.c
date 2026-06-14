@@ -6,6 +6,7 @@ void create_leak(){
 if (p != NULL){
   *p=5;
   free(p);
+  ptr=NULL;
 }
 
   
