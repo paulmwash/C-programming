@@ -5,6 +5,7 @@ void create_leak(){
   int *p= (int*)malloc(sizeof(int));
 if (p != NULL){
   *p=5;
+  free(p);
 }
 
   
