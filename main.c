@@ -2,6 +2,5 @@
 
 int main(){
   printf("starting C automation");
-
-return 0;
+   return 0;
 }
