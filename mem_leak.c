@@ -8,7 +8,6 @@ if (p != NULL){
   free(p);
   ptr=NULL;
 }
-
   
 }
 
