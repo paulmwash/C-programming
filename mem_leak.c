@@ -11,8 +11,3 @@ if (p == NULL){
   free(p);
   p=NULL;
 }
-
-int main(){
-  create_leak();
-return 0;
-}
