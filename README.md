@@ -1,8 +1,8 @@
 # C-programming
-This section handles pointers,memory ,arrays and all important aspect of C
+A comprehensive introduction to C programming
 
 # Pointers
-It illustrate how pointers are declared and used 
+It illustrates how pointers are declared and used 
 
 # Memory
 The code illustrate how memory is handled using malloc
