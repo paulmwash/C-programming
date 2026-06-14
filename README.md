@@ -8,4 +8,4 @@ It illustrates how pointers are declared and used
 The code illustrate how memory is handled using malloc
 # Memory allocation syntax
 int *p=(int*)malloc(sizeof(int));
-malloc allocates memry from the stack
+malloc allocates memory from the stack
