@@ -1,0 +1,27 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Compile C Files
+      run: |
+        echo "🔨 Compiling with warnings..."
+        gcc -Wall -Wextra -std=c99 *.c -o my_program
+        
+        if [ $? -eq 0 ]; then
+          echo "✅ Build successful!"
+          ./my_program
+        else
+          echo "❌ Compilation failed!"
+          exit 1
+        fi
