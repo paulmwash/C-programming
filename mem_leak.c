@@ -3,12 +3,12 @@
 
 void create_leak(){
   int *p= (int*)malloc(sizeof(int));
-if (p != NULL){
-  *p=5;
-  free(p);
-  ptr=NULL;
+if (p == NULL){
+ printf("Memory allocation failed");
 }
-  
+ *p=5;
+  free(p);
+  p=NULL;
 }
 
 int main(){
