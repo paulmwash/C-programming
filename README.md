@@ -5,7 +5,10 @@ A comprehensive introduction to C programming
 It illustrates how pointers are declared and used 
 
 # Memory
-The code illustrate how memory is handled using malloc
+The code illustrate how memory is handled using malloc,calloc
+
+# Data Structures
+Struct,Union
 
 # Memory allocation syntax
 int *p=(int*)malloc(sizeof(int));
