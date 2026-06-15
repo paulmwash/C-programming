@@ -6,10 +6,9 @@ It illustrates how pointers are declared and used
 
 # Memory
 The code illustrate how memory is handled using malloc,calloc
+Dynamic memory allocation
 
 # Data Structures
 Struct,Union
 
-# Memory allocation syntax
-int *p=(int*)malloc(sizeof(int));
-malloc allocates memory from the stack
+
