@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-void create_File{
+
+void create_File(){
 FILE *fptr;
 
 fptr=fopen("new.txt","w");
