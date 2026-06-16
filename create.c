@@ -6,7 +6,8 @@ FILE *fptr;
 
 fptr=fopen("new.txt","w");
 if (fptr==NULL)
-printf("File could not be created ");
+perror("File could not be created ");
+return 1;
 else
 printf("File created successful");
 }
