@@ -8,8 +8,7 @@ char buffer[50];
   fptr=fopen("new.txt","r");
 
   if (fptr==NULL)
-    perror("File could not be opened");
-    return 1;
+    printf("File could not be opened");
   else
   {
     printf("file opened");
