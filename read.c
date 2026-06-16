@@ -3,7 +3,7 @@
 
 void read(){
 FILE *fptr;
-char buffer[10];
+char buffer[50];
 
   fptr=fopen("new.txt","r");
 
@@ -13,7 +13,7 @@ char buffer[10];
   {
     printf("file opened");
 
-    while(fgets(buffer,10,fptr) !=NULL)){
+    while(fgets(buffer,50,fptr) !=NULL)){
       printf("%s",buffer);
       fclose(fptr);
     }
