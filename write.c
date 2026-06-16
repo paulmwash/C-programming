@@ -9,7 +9,7 @@ if (fptr==NULL)
   printf("File could not be opened");
 else
 {
-fputs(data,fptr);
+fputs(buffer,fptr);
 fputs("\n",fptr);
 printf("Data has been successful written to file new.txt");
 fclose(fptr);
