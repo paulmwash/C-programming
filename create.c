@@ -9,5 +9,4 @@ if (fptr==NULL)
 printf("File could not be created ");
 else
 printf("File created successful");
-  
 }
