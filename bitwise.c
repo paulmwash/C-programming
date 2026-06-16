@@ -3,22 +3,22 @@
 int x=20;
 int y=13;
 
-void bitwiseAnd(){
+void bitwiseAND(){
 int k;
   k=x & y;
-  printf("%b",k);
+  printf("k is %b\n",k);
   }
 
 void bitwiseOR(){
   int j;
   j=x | y;
-  printf("%b",j);
+  printf("j is %b\n",j);
 }
 
 void bitwiseXOR(){
 int p;
   p=x ^ y;
-  printf("%b",p); 
+  printf("p is %b\n",p); 
 }
 
 void bitwiseNOT(){
