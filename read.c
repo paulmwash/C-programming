@@ -13,7 +13,7 @@ char buffer[50];
   {
     printf("file opened");
 
-    while(fgets(buffer,50,fptr) !=NULL)){
+    while(fgets(buffer,50,fptr) !=NULL){
       printf("%s",buffer);
       fclose(fptr);
     }
