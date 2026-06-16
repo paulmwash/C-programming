@@ -6,7 +6,8 @@ FILE *fptr;
 char buffer[50]="Adding commits to github via git is the best approach";
 fptr=fopen("new.txt","a");
 if (fptr==NULL)
-  printf("File could not be opened");
+  perror("File could not be opened");
+  return 1;
 else
 {
 fputs(buffer,fptr);
