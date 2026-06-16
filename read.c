@@ -15,6 +15,7 @@ char buffer[10];
 
     while(fgets(buffer,10,fptr) !=NULL)){
       printf("%s",buffer);
+      fclose(fptr);
     }
   }
 }
