@@ -14,3 +14,4 @@ fputs("\n",fptr);
 printf("Data has been successful written to file new.txt");
 fclose(fptr);
 }
+}
