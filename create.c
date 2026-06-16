@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+int main(){
 FILE *fptr;
 
 fptr=fopen("new.txt","w");
@@ -9,4 +9,5 @@ printf("File could not be created ");
 else
 printf("File created successful");
 return 0;
+}
 }
