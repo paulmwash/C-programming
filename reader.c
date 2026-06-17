@@ -4,7 +4,7 @@
 
 int main(int argc char *argv[]){
 FILE *fptr;
-  buffer[20];
+  store[20];
 if (argc !=2)
   printf("Commandline arguements should be two");
 else
@@ -13,8 +13,8 @@ fptr=fopen(argv[1],"r");
   if (fptr != NULL)
     printf("File could not be opened");
   else{
-    while(fgets(buffer,20,fptr) != NULL){
-      printf("%s",buffer);
+    while(fgets(store,20,fptr) != NULL){
+      printf("%s",store);
     }
     fclose(fptr);
   }
