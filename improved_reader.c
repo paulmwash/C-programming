@@ -35,7 +35,7 @@ fptr=fopen(optarg,"r");
 }    
 }
 }
-
+}
 
 
 
