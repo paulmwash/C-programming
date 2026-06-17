@@ -18,6 +18,9 @@ while((ch=getopt(argc,argv,"mhf:")) != -1){
     case 'h':
       printf("-h help -m manual");
       break;
+    case ':':
+     printf("Please enter arguements %-c",optopt);
+     break;
     case 'f': 
 fptr=fopen(optarg,"r");
   if (fptr== NULL)
