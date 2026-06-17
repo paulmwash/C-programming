@@ -4,7 +4,7 @@
 
 void reading(int argc ,char *argv[]){
 FILE *fptr;
-  store[20];
+  char store[20];
 if (argc !=2)
   printf("Commandline arguements should be two");
 else
