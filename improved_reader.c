@@ -33,12 +33,4 @@ fptr=fopen(optarg,"r");
     fclose(fptr);
   }
     break;
-}    
-}
-}
-}
-
-
-
-
-
+}}}}
