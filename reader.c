@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-void reading(int argc char *argv[]){
+void reading(int argc ,char *argv[]){
 FILE *fptr;
   store[20];
 if (argc !=2)
