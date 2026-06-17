@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-int main(int argc char *argv[]){
+void reading(int argc char *argv[]){
 FILE *fptr;
   store[20];
 if (argc !=2)
@@ -19,5 +19,4 @@ fptr=fopen(argv[1],"r");
     fclose(fptr);
   }
 }
- return 0;
 }
