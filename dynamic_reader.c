@@ -13,7 +13,7 @@ fptr=fopen(argv[1],"r");
   if (fptr != NULL)
     printf("File could not be opened");
   else{
-    while(fgets(store,sizef(store),fptr) != NULL){
+    while(fgets(store,sizeof(store),fptr) != NULL){
       printf("%s",store);
     }
     fclose(fptr);
