@@ -24,7 +24,7 @@ fptr=fopen(optarg,"r");
     printf("File could not be opened");
   else{
    while(fgets(buf,sizeof(buf),fptr) != NULL){
-     printf("%s",fptr);
+     printf("%s",buf);
    }
     fclose(fptr);
   }
