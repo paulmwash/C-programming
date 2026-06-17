@@ -26,9 +26,9 @@ fptr=fopen(optarg,"r");
    while(fgets(buf,sizeof(buf),fptr) != NULL){
      printf("%s",fptr);
    }
-    fclose(fptr)
+    fclose(fptr);
   }
-    break
+    break;
 }    
 }
 }
