@@ -30,8 +30,7 @@ fptr=fopen(optarg,"r");
   }
     break
 }    
-} 
-return 0;  
+}
 }
 
 
