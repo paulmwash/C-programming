@@ -19,7 +19,7 @@ while((ch=getopt(argc,argv,"mhf:")) != -1){
     case 'h':
       printf("-h help -m manual");
       break;
-    case ':':
+    case ':' | '?':
      printf("Please enter arguements %-c",optopt);
      break;
     case 'f': 
