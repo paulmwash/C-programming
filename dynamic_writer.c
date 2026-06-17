@@ -1,3 +1,9 @@
+/*This program takes three command line arguement 
+/*The first arguement :the program,second arguement :fiename
+/*The third arguement:string to append to the file
+/*Example ./dynamic_writer store.txt "My first line"
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -5,7 +11,6 @@
 void writer(int argc ,char *argv[]){
 FILE *fptr;
   
-printf("Enter file name followed by string you want to write in\n");
 if (argc != 3)
   printf("command line arguements should be two");
 else
