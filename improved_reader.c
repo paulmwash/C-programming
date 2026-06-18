@@ -9,10 +9,8 @@ void reader(int argc,char *argv[]){
   char buf[40];
   int ch;
 
-if (argc == 1)
-  printf("-m for manual -h for help -f for file");
-  else
-{
+if (argc == 2)
+  {
 while((ch=getopt(argc,argv,"mhf:")) != -1){
   switch(ch){
     case 'm':
@@ -33,4 +31,10 @@ fptr=fopen(optarg,"r");
     fclose(fptr);
   }
     break;
-}}}}
+}}}
+else
+  printf("Cmmandine should be two");
+}
+
+
+
