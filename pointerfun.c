@@ -1,3 +1,7 @@
+/*The code illustrates function pointer
+and how they are called
+*/
+
 #include <stdio.h>
 
 
