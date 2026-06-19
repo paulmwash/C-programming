@@ -17,7 +17,7 @@ printf("%s University  opens:%s and closes:%s\n",i->name,i->open,i->closes);
 
 
 
-int main(){
+void rec(){
 place a={"KyU","Kutus","7am","7pm",NULL};
 place b={"Egerton","Nakuru","7am","7pm",NULL};
 place c={"Tharaka","Tharaka","7am","7pm",NULL};
@@ -28,6 +28,4 @@ b.next=&c;
 c.next=&d;
 
 display(&a);
-
-return 0;
 }
