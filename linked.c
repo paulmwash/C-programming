@@ -9,13 +9,11 @@ struct place *next;
 }place;
 
 void display(place *s ){
-place  *i=s;
+place *i=s;
 for(;i != NULL;i= i->next){
 printf("%s University  opens:%s and closes:%s\n",i->name,i->open,i->closes);  
 }
 }
-
-
 
 void rec(){
 place a={"KyU","Kutus","7am","7pm",NULL};
