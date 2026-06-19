@@ -1,3 +1,7 @@
+/*The code illustrates function pointer
+and how they are called
+*/
+
 #include <stdio.h>
 
 
@@ -14,7 +18,7 @@ void product(int x,int y){
 printf("x*y is %d\n",x*y);
 }
 
-int main(){
+void home(){
 
 void (*back)(char *name);
 back=&call;
@@ -27,5 +31,4 @@ rsum(4,5);
 void (*rproduct)(int,int);
 rproduct=&product;
 rproduct(4,5);
-return 0;
 }
