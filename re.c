@@ -13,7 +13,7 @@ printf("We thank you all %s\n",mes);
 }
 
 
-int main(){
+void center(){
 void (*rperson)(char *p);
 rperson=&person;
 rperson("Paul");
@@ -25,5 +25,4 @@ rprofit(12,40000);
 void (*rfin)(char *f);
 rfin=&fin;
 rfin("Employees");
-return 0;
 }
